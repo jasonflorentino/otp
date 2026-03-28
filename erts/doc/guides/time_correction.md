@@ -75,7 +75,7 @@ Coordinated Universal Time. UTC almost aligns with
 [UT1](time_correction.md#ut1). However, UTC uses the SI definition of a second,
 which has not exactly the same length as the second used by UT1. This means that
 UTC slowly drifts from UT1. To keep UTC relatively in sync with UT1, leap
-seconds are inserted, and potentially also deleted. That is, an UTC day can be
+seconds are inserted, and potentially also deleted. That is, a UTC day can be
 86400, 86401, or 86399 seconds long.
 
 ### POSIX Time
@@ -88,8 +88,8 @@ is defined to be exactly 86400 seconds long. Strangely enough, Epoch is defined
 to be a time in UTC, and UTC has another definition of how long a day is.
 Quoting the Open Group
 ["POSIX time is therefore not necessarily UTC, despite its appearance"](http://pubs.opengroup.org/onlinepubs/9699919799/xrat/V4_xbd_chap04.html#tag_21_04_15).
-The effect of this is that when an UTC leap second is inserted, POSIX time
-either stops for a second, or repeats the last second. If an UTC leap second
+The effect of this is that when a UTC leap second is inserted, POSIX time
+either stops for a second, or repeats the last second. If a UTC leap second
 would be deleted (which has not happened yet), POSIX time would make a one
 second leap forward.
 
