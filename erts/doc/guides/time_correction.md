@@ -172,9 +172,9 @@ to Erlang monotonic time depend on the time warp mode used.
 
 Internally in the runtime system, Erlang monotonic time is the "time engine"
 that is used for more or less everything that has anything to do with time. All
-timers, regardless of it is a `receive ... after` timer, BIF timer, or a timer
-in the `m:timer` module, are triggered relative Erlang monotonic time. Even
-[Erlang system time](time_correction.md#erlang-system-time) is based on Erlang
+timers, regardless of whether they are `receive ... after` timers, BIF timers,
+or timers in the `m:timer` module, are triggered relative to Erlang monotonic time.
+Even [Erlang system time](time_correction.md#erlang-system-time) is based on Erlang
 monotonic time. By adding current Erlang monotonic time with current time
 offset, you get current Erlang system time.
 
