@@ -214,10 +214,10 @@ be a compelling thought, it is simply never the case.
 
 A "normal" modern computer cannot keep time, not on itself and not unless you
 have a chip-level atomic clock wired to it. Time, as perceived by your computer,
-must normally be corrected. Hence the Network Time Protocol (NTP) protocol,
-together with the `ntpd` process, does its best to keep your computer time in
-sync with the correct time. Between NTP corrections, usually a less potent
-time-keeper than an atomic clock is used.
+must normally be corrected. Hence the Network Time Protocol (NTP), together with
+the `ntpd` process, does its best to keep your computer time in sync with the
+correct time. Between NTP corrections, usually a less potent time-keeper than an
+atomic clock is used.
 
 However, NTP is not fail-safe. The NTP server can be unavailable, `ntp.conf` can
 be wrongly configured, or your computer can sometimes be disconnected from
