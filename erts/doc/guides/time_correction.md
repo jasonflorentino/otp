@@ -182,7 +182,7 @@ To retrieve the current time offset, call `erlang:time_offset/0`.
 
 ### Timers
 
-All timers are triggered relative Erlang monotonic time. All timers currently
+All timers are triggered relative to Erlang monotonic time. All timers currently
 have millisecond resolution both in the API and internally in the runtime
 system. That is, resolution (as well as precision and accuracy) will not be
 higher than millisecond. If [Erlang monotonic time](#erlang-monotonic-time) has
