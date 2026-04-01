@@ -409,8 +409,8 @@ adjustments needed are for inserted (or deleted) leap seconds.
 ### Multi-Time Warp Mode
 
 _Multi-time warp mode in combination with time correction is the preferred
-configuration_. This as the Erlang runtime system have better performance, scale
-better, and behave better on almost all platforms. Also, the accuracy and
+configuration_. This enables the Erlang runtime system to have better performance,
+scale better, and behave better on almost all platforms. Also, the accuracy and
 precision of time measurements are better. Only Erlang runtime systems executing
 on ancient platforms benefit from another configuration. As of OTP 26 (ERTS
 14.0) this is also the default.
